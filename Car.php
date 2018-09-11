@@ -8,23 +8,23 @@
 
 class Car
 {
-    protected $manufacturer;
-    protected $doors;
+    protected $_manufacturer;
+    protected $_doors;
 
     /**
      * @return mixed
      */
     public function getManufacturer()
     {
-        return $this->manufacturer;
+        return $this->_manufacturer;
     }
 
     /**
-     * @param mixed $manufacturer
+     * @param mixed $_manufacturer
      */
-    public function setManufacturer($manufacturer)
+    public function setManufacturer($_manufacturer)
     {
-        $this->manufacturer = $manufacturer;
+        $this->_manufacturer = $_manufacturer;
     }
 
     /**
@@ -32,14 +32,14 @@ class Car
      */
     public function getDoors()
     {
-        return $this->doors;
+        return $this->_doors;
     }
 
     /**
-     * @param mixed $doors
+     * @param mixed $_doors
      */
-    public function setDoors($doors)
+    public function setDoors($_doors)
     {
-        $this->doors = $doors;
+        $this->_doors = $_doors;
     }
 }
